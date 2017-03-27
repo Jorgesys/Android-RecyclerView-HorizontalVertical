@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">RecyclerView by Jorgesys</string>
+    <string-array name="names">
+        <item>Elena</item>
+        <item>Sergio</item>
+        <item>Doru</item>
+        <item>Minodora</item>
+        <item>Haris</item>
+        <item>Antoaneta</item>
+        <item>Constantin</item>
+        <item>Maria</item>
+        <item>Jorgesys</item>
+    </string-array>
+    <integer-array name="ages">
+        <item>26</item>
+        <item>37</item>
+        <item>31</item>
+        <item>25</item>
+        <item>40</item>
+        <item>31</item>
+        <item>68</item>
+        <item>30</item>
+        <item>25</item>
+    </integer-array>
+</resources>

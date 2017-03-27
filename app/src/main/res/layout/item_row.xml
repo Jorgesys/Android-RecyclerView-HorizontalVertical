@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/row_padding">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="34dp"
+        app:srcCompat="@drawable/android" />
+
+    <LinearLayout
+        android:id="@+id/layoutPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblName"
+            style="@style/RowSubtitle"
+            android:text="Name:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/nameTextView"
+            style="@style/RowTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="@dimen/row_padding" />
+
+        <TextView
+            android:id="@+id/lblAge"
+            style="@style/RowSubtitle"
+            android:text="Age:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/ageTextView"
+            style="@style/RowTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/row_padding" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/blue"/>
+
+</LinearLayout>
